@@ -1,0 +1,150 @@
+header {
+    width: 100%;
+    height: 1.9em;
+    background-color: #fff;
+ /*   position: fixed;
+    top: 0;
+    left: 0;*/
+}
+
+
+header p {
+    margin-top: 1.25rem;
+    margin-left: 4.8125rem; /*77px*/
+    color: #00AFF0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    color: #00AFF0;
+}
+
+h1 {
+    font-size: 4.125rem;
+    padding-bottom: 0.8125rem; /*13px*/
+}
+
+h2 {
+    font-size: 2.0625rem;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+p, span {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    color: #666666;
+    font-size: 0.75rem;
+}
+
+div.content {
+    width: 54.75em; /*876px*/
+    margin: 0 auto;
+
+}
+
+div.page {
+    /*margin-top: 2.5rem;*/
+    min-width: 1024px;
+    min-height: 768px;
+}
+
+div.title {
+    text-align: center;
+}
+
+div.title > div {
+    text-align: left;
+    width: 350px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+
+/*give colours to texts and headings */
+div.secondary-colors p,
+div.primary-colors p {
+    line-height: 1.5
+}
+div.primary-colors h3.grey{
+    color: #666666;
+}
+div.primary-colors p.blue {
+    color: #00AFF0;
+}
+
+div.primary-colors p.grey {
+    color: #666666;
+}
+
+div.secondary-colors p.yellow {
+    color: #FFCD00;
+}
+
+
+div.secondary-colors p.green {
+    color: #87C80A;
+}
+
+div.secondary-colors p.orange {
+    color: #FF7300;
+}
+
+div.secondary-colors p.purple {
+    color: #8C288C;
+}
+
+div.secondary-colors p:nth-child(1) {
+    font-weight: bold;
+}
+
+div.secondary-colors div {
+    float: left;
+}
+/*making circles*/
+
+div.secondary-colors div.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+
+div.secondary-colors div.circle.yellow {
+    background-color: #FFCD00;
+}
+
+
+div.secondary-colors div.circle.green {
+    background-color: #87C80A;
+}
+
+div.secondary-colors div.circle.orange {
+    background-color: #FF7300;
+}
+
+div.secondary-colors div.circle.purple {
+    background-color: #8C288C;
+}
+
+
+/*font-page*/
+
+div.lucida p,
+div.helvetica p{
+    font-size: 1.2em;
+}
+
+div.font-content {
+    width: 50%;
+    float: left;
+}
