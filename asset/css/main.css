@@ -251,10 +251,9 @@ div.secondary-colors div.circle.purple {
     margin: 0 auto;
 }
 
-#typeface-page > div.title.full-width > h1 {
-    margin-top: 45px;
+div.title.full-width > h1 {
+    padding-top: 40px;
 }
-
 
 div.lucida p,
 div.helvetica p{
@@ -267,7 +266,9 @@ div.font-content {
 }
 
 
-
+#typeface-page img {
+    margin: 50px 0;
+}
 
 /**
  * For modern browsers
