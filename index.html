@@ -13,7 +13,8 @@
         <link rel="stylesheet" href="asset/css/normalize.min.css">
         <link rel="stylesheet" href="asset/css/main.css">
         <link rel="stylesheet" href="asset/css/custom.css">
-
+        
+        <link rel="stylesheet" href="asset/css/jquery.fullPage.css">
 
         <script src="asset/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
@@ -22,120 +23,146 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <!-- this should be fixed on top -->
-    
-    
-     <div id="logo-page" class="page">
-        <header><p>Skype Brandguideline for Web</p></header>
-         <div class="title">
+<!--     <nav>
+      <div class="circle" id=""><a href="#logo-page"></a></div>
+      <div class="circle" id=""><a href="#colour-page"></a></div>
+      <div class="circle" id=""><a href="#typeface-page"></a></div>
+    </nav>
+ -->
+<div id="fullpage">
+  <div class="section">
+    <div id="logo-page" class="container">
+      <div  class="page">
+        <header>
+          <p>Skype Brandguideline for Web</p>
+        </header>
+        <div class="title">
+          <div>
              <h1>Our Logo</h1>
-             <div><p>Our logo is a very valuable asset. We must treat it nicely. Never abuse our logo, it doesn't have arms so it can't fight back. (our lawyers however, are another story.)</p></div>
-         </div>
-         <div class="content clearfix">
+             <div>
+                <p>Our logo is a very valuable asset. We must treat it nicely. Never abuse our logo, it doesn't have arms so it can't fight back (our lawyers however, are another story).</p>
+             </div>
+          </div>
+        </div>
+        <div class="logo">
             <div>
+              <div>
                 <img src="asset/img/skypeLogo.png" alt="skype logo">
-                <p>Take a moment to think about how you apply the Skype logo. Always leave the logo some space to breath. Use white or neutral backgrounds. Use the negative logo if it is unavoidable to sit the Skype logo on a colour.</p>
+              </div>
+               <p>Take a moment to think about how you apply the Skype logo. Always leave the logo some space to breath. Use white or neutral backgrounds. Use the negative logo if it is unavoidable to sit the Skype logo on a colour.</p>
+            </div> 
+        </div>
+        <div class="do-and-dont">
+          <div class="cf">
+            <div class="dos">
+              <h2>Do</h2>
+              <img src="asset/img/sm-logo-do.png" alt="Skype logo">
+              <img src="asset/img/small-neg-log-do.png" alt="Skype logo negative">
+            </div>
+            <div class="donts">
+                <h2>Don't</h2>
+                <img src="asset/img/logo-dont1.png" alt="Skype logo don'ts with colored background">
+                <img src="asset/img/logo-dont2.png" alt="Skype logo don'ts with image background">
+                <img src="asset/img/logo-dont3.png" alt="Skype logo don'ts with rotated logo">
+                <img src="asset/img/logo-dont4.png" alt="Skype logo don'ts with shadowed logo">
+            </div>
+          </div> <!-- wrap --> 
+        </div> <!-- do-and-cont cf -->
+      </div>
+    </div> <!-- logo-page div -->
+  </div> <!-- section div -->
+
+  <div class="section">
+    <div id="colour-page" class="container">
+      <header>
+        <p>Skype Brandguideline for Web</p>
+      </header>
+      <div class="title">
+        <div>
+          <h1>Our Colour</h1>
+          <div>
+            <p>Our colours are waht give us our personality. We're bright, bold, colourful and confident. They're simply loud and clear.</p>
+          </div>
+        </div> 
+      </div> <!-- title div -->
+
+      <div class="content cf">
+        <div class="primary-colors">
+            <h2>Primary colours for text and headers.</h2>
+            <div>
+                <h3>Skype Blue</h3>
+                <p class="blue">Pantone Pro. Cyan C</p>
+                <p>CMYK 100/0/0/0</p>
+                <p>RGB 0/175/240</p>
+                <p>HEX #00AFF0</p>
+                <p>100% General Use</p>
+                <p>50% Strapline</p>
+                <p>20% Boxes</p>
             </div>
             <div>
+                <h3 class="grey">Skype Text </h3>
+                <p class="grey">Cool Gray 9 C</p>
+                <p>CMYK 0/0/0/60</p>
+                <p>RGB 130/130/130</p>
+                <p>HEX #666666</p>
+            </div>
+        </div> <!-- Primary div -->
+        <div class="secondary-colors">
+            <h2>These Colors only appear in rainbows.</h2>
+            <div class="cf">
+                <div class="yellow circle"></div>
                 <div>
-                    <h2>Do</h2>
-                    <img src="asset/img/sm-logo-do.png" alt="Skype logo">
-                    <img src="asset/img/small-neg-log-do.png" alt="Skype logo negative">
-                </div>
-                
-                <div>
-                    <h2>Don't</h2>
-                    <img src="asset/img/logo-dont1.png" alt="Skype logo don'ts with colored background">
-                    <img src="asset/img/logo-dont2.png" alt="Skype logo don'ts with image background">
-                    <img src="asset/img/logo-dont3.png" alt="Skype logo don'ts with rotated logo">
-                    <img src="asset/img/logo-dont4.png" alt="Skype logo don'ts with shadowed logo">
+                    <p class="yellow">Skype Yellow</p>
+                    <p class="yellow">Pantone 116 C</p>
+                    <p>CMYK 0/10/100/0</p>
+                    <p>RGB 255/205/0</p>
+                    <p>HEX #FFCD00</p>
                 </div>
             </div>
-         </div>
-
-
-       <div id="colour-page" class="page">
-        <header><p>Skype Brandguideline for Web</p></header>
-           <div class="title">
-               <h1>Our Colour</h1>
-               <div><p>Our colours are waht give us our personality. We're bright, bold, colourful and confident. They're simply loud and clear.</p></div>
-           </div>
-           <div class="content clearfix">
-                <div class="primary-colors">
-                    <h2>Primary colours for text and headers.</h2>
-                    <div>
-                        <h3>Skype Blue</h3>
-                        <p class="blue">Pantone Pro. Cyan C</p>
-                        <p>CMYK 100/0/0/0</p>
-                        <p>RGB 0/175/240</p>
-                        <p>HEX #00AFF0</p>
-                        <p>100% General Use</p>
-                        <p>50% Strapline</p>
-                        <p>20% Boxes</p>
-                    </div>
-                    <div>
-                        <h3 class="grey">Skype Text </h3>
-                        <p class="grey">Cool Gray 9 C</p>
-                        <p>CMYK 0/0/0/60</p>
-                        <p>RGB 130/130/130</p>
-                        <p>HEX #666666</p>
-                    </div>
+            <div class="cf">
+                <div class="green circle"></div>
+                <div>
+                <p class="green">Skype Green</p>
+                <p class="green">Pantone 376 C</p>
+                    <p>CMYK 55/5/100/0</p>
+                    <p>RGB 135/200/10</p>
+                    <p>HEX #87C80A</p>
                 </div>
-                <div class="secondary-colors">
-                    <h2>These Colors only appear in rainbows.</h2>
-                     <div class="clearfix">
-                        <div class="yellow circle"></div>
-                        <div>
-                            <p class="yellow">Skype Yellow</p>
-                            <p class="yellow">Pantone 116 C</p>
-                            <p>CMYK 0/10/100/0</p>
-                            <p>RGB 255/205/0</p>
-                            <p>HEX #FFCD00</p>
-                        </div>
-                     </div>
-                     <div class="clearfix">
-                        <div class="green circle"></div>
-                        <div>
-                        <p class="green">Skype Green</p>
-                        <p class="green">Pantone 376 C</p>
-                            <p>CMYK 55/5/100/0</p>
-                            <p>RGB 135/200/10</p>
-                            <p>HEX #87C80A</p>
-                        </div>
-                     </div>
-                     <div class="clearfix">
-                        <div class="orange circle"></div>
-                        <div>
-                            <p class="orange">Skype Orange</p>
-                            <p class="orange">Pantone 151 C</p>
-                            <p>CMYK 0/60/100/0</p>
-                            <p>RGB 255/115/0</p>
-                            <p>HEX #FF7300</p>
-                        </div>
-                     </div>
-                     <div class="clearfix">
+            </div>
+            <div class="cf">
+                <div class="orange circle"></div>
+                <div>
+                    <p class="orange">Skype Orange</p>
+                    <p class="orange">Pantone 151 C</p>
+                    <p>CMYK 0/60/100/0</p>
+                    <p>RGB 255/115/0</p>
+                    <p>HEX #FF7300</p>
+                </div>
+            </div>
+            <div class="cf">
+                <div class="purple circle"></div>
+                <div>
+                    <p class="purple">Skype Purple</p>
+                    <p class="purple">Pantone 254 C</p>
+                    <p>CMYK 55/100/5/0</p>
+                    <p>RGB 140/40/140</p>
+                    <p>HEX #8C288C</p>
+                </div>
+            </div>
+        </div> <!--  Secondary-colors div -->
+      </div> <!-- content div -->
+    </div> <!-- colour-page div-->
+  </div> <!-- section div -->
 
-                        <div class="purple circle"></div>
-                        <div>
-                            <p class="purple">Skype Purple</p>
-                            <p class="purple">Pantone 254 C</p>
-                            <p>CMYK 55/100/5/0</p>
-                            <p>RGB 140/40/140</p>
-                            <p>HEX #8C288C</p>
-                        </div>
-                     </div>
-                 </div> 
-           </div>
-       </div>
-
-  <div id="typeface-page" class="page">
-    <header>
+  <div class="section">
+    <div id="typeface-page" class="container">
+      <header>
         <p>Skype Brandguideline for Web</p>
-    </header>
+      </header>
       <div class="title full-width">
           <h1>Our Typeface. Online.</h1>
       </div>
-      <div class="content clearfix">
+      <div class="content cf">
         <div class="font-content">
           <div>
               <h2>Helvetica</h2>
@@ -149,7 +176,6 @@
                     <p>(.,!?@#$%&*”’)</p>
             </div>     
         </div>
-        
         <div class="font-content">
           <div>
               <h2>Lucida Grande</h2>
@@ -164,24 +190,34 @@
           </div>    
         </div>
       </div>
+    </div> <!-- typeface-page div -->
+  </div> <!-- section div -->
+</div> <!-- fullpage div -->
 
-  </div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="asset/js/vendor/jquery.slimscroll.min.js"></script>
+<script type="text/javascript" src="asset/js/jquery.fullPage.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        anchors: ['firstPage', 'secondPage', '3rdPage'],
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['First', 'Second', 'Third']
+      });
+    });
+</script>
 
-
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="asset/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-
-        <script src="asset/js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-    </body>
+  <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+  </script>
+</body>
 </html>
